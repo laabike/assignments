@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    background: #f2f2f2;
+    width: 1440px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    margin: 2px 10px;
+}
+
+p {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin: 2px 10px;
+    padding: 10px 0;
+    line-height: 1.6;
+    word-spacing: -1.6px;
+}
+
+.div-body {
+  position: absolute;
+  top:0;
+  left: 340px;
+}
+
+.main-container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 732px;
+    position: relative;
+    top: -100px;
+}
+
+img {
+    width: 40px;
+    height: 35px;
+}
+
+.grid-task {
+    text-align: center;
+    justify-content: center;
+}
+
+#button {
+    background: #e67300;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 50px 360px 0px;
+    padding: 10px;
+    color: #fff
+}
+
+.orange-div {
+    background: #e79542;
+    padding: 32px;
+    text-align: left;
+    height: 380px;
+    width: 650px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.orange-div h3 {
+    font-size: 25px;
+    letter-spacing: 3;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 25px 0 20px;
+    color: #fff;
+}
+
+.orange-div img {
+    position: absolute;
+    left: 40px;
+    top: 205px;
+    opacity: 0.5;
+}
+
+.blue-div {
+    background: #006970;
+    padding: 32px;
+    text-align: left;
+    height: 380px;
+    width: 650px;
+}
+
+.blue-div h3 {
+    font-size: 25px;
+    letter-spacing: 3;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 25px 0 20px;
+    color: #fff;
+}
+
+.blue-div img {
+   position: absolute;
+   left: 275px;
+   top: 205px;
+   opacity: 0.5;
+}
+
+.green-div {
+    background: #004241;
+    padding: 32px;
+    text-align: left;
+    height: 380px;
+    width: 650px;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.green-div h3 {
+    font-size: 25px;
+    letter-spacing: 3;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 25px 0 20px;
+    color: #fff;
+}
+ 
+.green-div img {
+    position: absolute;
+    left: 515px;
+    top: 205px;
+    opacity: 0.5;
+}
+
+.btn {
+    margin: 50px 10px;
+    padding: 10px 20px;
+}
+
+.orange-div .btn {
+    border: 1px solid #e38826;
+    border-radius: 20px;
+    color: #e38826;
+}
+
+.orange-div .btn:active {
+    cursor: pointer;
+    background: #e38826;
+    border: 1.4px solid #fff;
+    color: #fff;
+}
+
+.blue-div .btn {
+    border: 1px solid #006970;
+    border-radius: 20px;
+    color: #006970;
+}
+
+.blue-div .btn:active {
+    cursor: pointer;
+    background: #006970;
+    border: 1.4px solid #fff;
+    color: #fff;
+}
+
+.green-div .btn {
+    border: 1px solid #004241;
+    border-radius: 20px;
+    color: #004241;
+}   
+
+.green-div .btn:active {
+    cursor: pointer;
+    background: #004241;
+    border: 1.4px solid #fff;
+    color: #fff;
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        width: 375px;
+        /* margin: auto; */
+        /* height: auto; */
+    }
+
+    .main-container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid-task {
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: -410px
+    }
+
+    header button {
+        left: 20px; 
+    }
+
+    .orange-div {
+        width: 100%;
+        margin-left: 90px;
+        padding: 20px;
+        text-align: left;
+        height: 390px;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:10px;
+    }
+
+    .orange-div img {
+        position: absolute;
+        left: 45px;
+        top: 190px;
+        width: 35px;
+        height: 30px;
+    }
+
+    .orange-div h3 {
+        margin: 40px 0 10px -15px;
+        padding: 3px 14px;
+    }
+
+    .orange-div p {
+        margin: 0px 20px 0px 2px;
+        line-height: 14px;
+    }
+
+    .blue-div p {
+        margin: 0px 10px 0px -12px;
+        line-height: 15px;
+    }
+
+    .orange-div .btn {
+        margin: 50px 0;
+        padding: 6px;
+    }
+
+    .blue-div {
+        height: 390px;
+    }
+
+    .blue-div img {
+        position: absolute;
+        left: 180px;
+        top: 190px;
+        width: 35px;
+        height: 30px;
+    }
+
+    .blue-div h3 {
+        padding: 4px 10px 0 12px;
+        margin: 25px 0 10px -20px;
+        padding: 3px 14px;
+    }
+
+    .blue-div p {
+        margin: 0px 17px 0px -5px;
+        line-height: 15px;
+    }
+
+    .blue-div .btn {
+        margin: 25px -10px;
+        padding: 6px;
+    }
+
+    .green-div { 
+        height: 390px;
+        margin-right: 20px;
+    }
+    
+    .green-div img {
+        position: absolute;
+        left: 320px;
+        top: 190px;
+    }
+
+    .green-div h3 {
+        margin: 3px 0 0px -3px;
+        padding: -34px -13px;
+        margin: 25px 0 10px -20px;
+        padding: 3px 14px;
+    }
+
+    .green-div p {
+        margin: 0px 10px 0px -5px;
+        line-height: 15px;
+    }
+
+    .btn {
+        margin: 27px 10px;
+        padding: 8px 15px;
+    }
+
+    .green-div .btn {
+        margin: 10px -10px;
+        padding: 6px;
+    }
+}
+
